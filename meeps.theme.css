@@ -6,7 +6,7 @@
  * @source https://github.com/KillaMeep/discordfiles
  * @website https://github.com/KillaMeep/discordfiles
  */
-
+/* just a shitty rewrite of pyrite.*/
 /* Import Base */
 @import url(https://leafyluigi.github.io/discord-themes/pyrite/build/base.css);
 
@@ -38,7 +38,7 @@
 
     --secondary-color: #E06100;
     --hover-color: #a019b5;
-    --tooltip-color: #8f3347;
+    --tooltip-color: #FFA500;
     --mention-background: var(--primary-color);
     --mention-opacity: 0.3;
     --home-icon: url(https://leafyluigi.github.io/images/Sunset%20Nature%2024%20by%20Bouzid27.png);
