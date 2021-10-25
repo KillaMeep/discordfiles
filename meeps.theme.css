@@ -2,7 +2,7 @@
  * @name Meeps Theme
  * @author KillaMeep#6288
  * @version 1.0
- * @description Pyrite for BetterDiscord/BandagedBD
+ * @description Pyrite for BetterDiscord/BandagedBD but optimised for animated background use
  * @source https://github.com/KillaMeep/discordfiles
  * @website https://github.com/KillaMeep/discordfiles
  */
@@ -41,7 +41,8 @@
     --tooltip-color: #FFA500;
     --mention-background: var(--primary-color);
     --mention-opacity: 0.3;
-    --home-icon: url(https://leafyluigi.github.io/images/Sunset%20Nature%2024%20by%20Bouzid27.png);
+    --home-icon: url(https://github.com/KillaMeep/discordfiles/blob/main/home.gif?raw=true);
+    /*--home-icon: url(https://leafyluigi.github.io/images/Sunset%20Nature%2024%20by%20Bouzid27.png);*/
     /* For Advanced Users */
     --code-font: Monaco, Consolas, Courier, monospace;
     --body-font: Whitney, Helvetica Neue, Helvetica, sans-serif;
