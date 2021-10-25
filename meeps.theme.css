@@ -41,7 +41,7 @@
     --tooltip-color: #FFA500;
     --mention-background: var(--primary-color);
     --mention-opacity: 0.3;
-    --home-icon: url(https://github.com/KillaMeep/discordfiles/blob/main/home.gif?raw=true);
+    --home-icon: url(https://raw.githubusercontent.com/KillaMeep/discordfiles/main/home.gif);
     /*--home-icon: url(https://leafyluigi.github.io/images/Sunset%20Nature%2024%20by%20Bouzid27.png);*/
     /* For Advanced Users */
     --code-font: Monaco, Consolas, Courier, monospace;
