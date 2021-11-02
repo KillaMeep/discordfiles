@@ -11,7 +11,6 @@
 /* just a shitty rewrite of pyrite.*/
 /* Import Base */
 @import url(https://leafyluigi.github.io/discord-themes/pyrite/build/base.css);
-
 /* Import User Modal Layout */
 @import url(https://leafyluigi.github.io/discord-themes/pyrite/build/userModalLayout.css);
 
@@ -28,8 +27,9 @@
 
 /* Theme Base */
 :root {
+    
     /*--background-image: url(https://leafyluigi.github.io/images/Synthscape%20by%20AxiomDesign.png);*/
-	--background-image: url(https://github.com/KillaMeep/discordfiles/blob/main/GalaxyFloat.mp4?raw=true);
+    --background-image: url(https://github.com/KillaMeep/discordfiles/blob/main/GalaxyFloat.mp4?raw=true);
     --user-modal-image: var(--background-image);
     --user-popout-image: var(--background-image);
     --background-attachment: fixed;
@@ -37,7 +37,7 @@
     --user-popout-attachment: var(--background-attachment);
     /*--primary-color: #FF6F00;*/
 	--primary-color:  #490a73;
-
+    --background-secondary: rgb(0, 0, 0);
     --secondary-color: #E06100;
     --hover-color: #a019b5;
     --tooltip-color: #FFA500;
@@ -48,13 +48,17 @@
     /* For Advanced Users */
     --code-font: Monaco, Consolas, Courier, monospace;
     --body-font: Whitney, Helvetica Neue, Helvetica, sans-serif;
-    /* Below are currently unused but will be used in future. */
+    
+    
+    
     --background-filters: none;
     --user-modal-filters: blur(3px);
     --user-popout-filters: blur(3px);
     --gradient-colors: var(--primary-color);
     --gradient-direction: to bottom right;
     --body-filters: none;
+    
+    
     /* Toggles. From 0 (disable) to 1 (enable). Anything outside of those values have NOT been tested and likely aren't supported. */
     --hide-member-list: 1;
     --hide-active-now: 1;
@@ -66,6 +70,12 @@
   --server-container: calc(var(--server-size) + 20px); */
     /* Using any of the below plugins? Change the 0 to a 1 */
     --channel-tabs-enabled: 0;
+    --serverlist-brightness: 0; /* Brightness for serverlist | 0 - 1 (decimals allowed) | DEFAULT: 0.8 */
+    --left-brightness: 0; /* Channels and DM list brightness | 0 - 1 (decimals allowed) | DEFAULT: 0.8 */
+    --middle-brightness: 0; /* Chat brightness | 0 - 1 (decimals allowed) | DEFAULT: 0.6 */
+    --right-brightness: 0;
+
+
 }
 
 
@@ -77,13 +87,6 @@
   --header-shading: rgba(0,0,0,0.7);
 }
 
-/* Feel free to edit these ones for Light Mode */
-.theme-light {
-  --card-background: rgba(255,255,255,0.05);
-  --side-shading: rgba(255,255,255,0.4);
-  --middle-shading: rgba(255,255,255,0.3);
-  --header-shading: rgba(255,255,255,0.5);
-}
 .fullscreen-bg video,
 .fullscreen-bg-video{
   position: fixed;
@@ -94,4 +97,22 @@
   width: auto;
   height: auto;
   transform: translate(-50%, -50%);
+}
+.folder-2w6LX1,.folder-2w6LX1.hover-qTxTR_ {
+  background-color: transparent; }
+.expandedFolderBackground-3ZDF05 {
+  background-color:transparent;
+}
+
+.folder-2w6LX1.hover-vBJrIv {
+  background-color:transparent;
+}
+
+.circleIconButton-hZmpE8 {
+
+  background-color:transparent;
+}
+
+.circleIconButton-hZmpE8.selected-3mFF3I {
+  background-color:transparent;
 }
